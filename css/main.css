@@ -1,0 +1,172 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+header{
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    cursor: pointer;
+    height: 80px;
+    font-weight: 400;
+    position: relative;  
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 900px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.1s linear;
+
+
+}
+
+nav ul li:hover{
+    color: #d3a84c;
+    transform: scale(1.0);
+}
+
+nav ul i:hover{
+    color: #d3a84c;
+}
+
+.line{
+    background-color: white;
+    width: 130px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.logo-container{
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+header > div{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    background-image: url("../images/food7.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.info > *{
+    margin: 0px;
+}
+.info h1{
+    font-size: 50px;
+    font-family: 'Pinyon Script', cursive;
+    color: #d3a84d;
+    font-weight: 100;
+
+    
+}
+
+.info p{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.info h2{
+    font-size: 30px;
+    color: #fff;
+    background-color: #d3a84c;
+    font-weight: 300;
+}
+
+
+.history{
+    border: 2px solid green;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    
+
+}
+
+.history-container{
+    border: 3px solid purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1{
+    border: 1px solid red;
+    font-size: 30px;
+    font-family: 'Pinyon Script', cursive;
+    color: #777b7e;
+}
+
+.title h2{
+    border: 1px solid purple;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.line2{
+    border: 1px solid aqua;
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    
+}
+
+.front-img{
+    border: 2px solid greenyellow;
+    height: 200px;
+
+}
+
+.content p{
+    border: 2px solid yellow;
+    font-size: 20px;
+
+
+}
+
+.message h2{
+    border: 1px solid orangered;
+    font-size: 20px;
+    background-color: #d3a84c;
+}
